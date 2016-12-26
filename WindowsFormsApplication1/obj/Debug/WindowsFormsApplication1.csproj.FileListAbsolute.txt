@@ -1,0 +1,78 @@
+c:\users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.登陆界面.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.history.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_glance.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_m.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.administrator.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.forget_password.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.administrator.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.forget_password.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.history.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.set.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_glance.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_m.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.登陆界面.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.regist.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.administrator.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.forget_password.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.history.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.regist.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.set.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_glance.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_m.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.登陆界面.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.manifest
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.application
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.manifest
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.application
+G:\qq文件\1211625028\FileRecv\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.manifest
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.application
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.manifest
+D:\体域\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.application
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.manifest
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.application
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.administrator.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.forget_password.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.history.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.regist.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.set.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_glance.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.userinfo_m.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.登陆界面.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.manifest
+C:\Users\lenovo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.application
