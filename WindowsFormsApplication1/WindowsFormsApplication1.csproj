@@ -117,12 +117,6 @@
     <Compile Include="set.Designer.cs">
       <DependentUpon>set.cs</DependentUpon>
     </Compile>
-    <Compile Include="userinfo_glance.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="userinfo_glance.Designer.cs">
-      <DependentUpon>userinfo_glance.cs</DependentUpon>
-    </Compile>
     <Compile Include="userinfo_m.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,9 +148,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="set.resx">
       <DependentUpon>set.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="userinfo_glance.resx">
-      <DependentUpon>userinfo_glance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userinfo_m.resx">
       <DependentUpon>userinfo_m.cs</DependentUpon>

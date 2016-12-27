@@ -37,16 +37,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.增加ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.删除ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.修改ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -115,25 +115,17 @@
             this.dataGridView1.Location = new System.Drawing.Point(14, 93);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(465, 256);
+            this.dataGridView1.Size = new System.Drawing.Size(533, 256);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // label4
+            // Column1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(272, 45);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 12);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "分数";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(319, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(160, 21);
-            this.textBox2.TabIndex = 8;
+            this.Column1.ContextMenuStrip = this.contextMenuStrip1;
+            this.Column1.Frozen = true;
+            this.Column1.HeaderText = "用户名";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 101;
             // 
             // contextMenuStrip1
             // 
@@ -164,14 +156,6 @@
             this.修改ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.修改ToolStripMenuItem.Text = "修改";
             // 
-            // Column1
-            // 
-            this.Column1.ContextMenuStrip = this.contextMenuStrip1;
-            this.Column1.Frozen = true;
-            this.Column1.HeaderText = "用户名";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 101;
-            // 
             // Column3
             // 
             this.Column3.ContextMenuStrip = this.contextMenuStrip1;
@@ -191,11 +175,27 @@
             this.Column2.Name = "Column2";
             this.Column2.Width = 122;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(272, 45);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 12);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "分数";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(319, 39);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(160, 21);
+            this.textBox2.TabIndex = 8;
+            // 
             // administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(491, 361);
+            this.ClientSize = new System.Drawing.Size(559, 361);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dataGridView1);

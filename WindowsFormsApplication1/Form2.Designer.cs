@@ -31,8 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.用户ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.查看ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.修改ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.历史记录ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,26 +60,10 @@
             // 
             // 用户ToolStripMenuItem
             // 
-            this.用户ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.查看ToolStripMenuItem,
-            this.修改ToolStripMenuItem});
             this.用户ToolStripMenuItem.Name = "用户ToolStripMenuItem";
             this.用户ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.用户ToolStripMenuItem.Text = "个人信息";
-            // 
-            // 查看ToolStripMenuItem
-            // 
-            this.查看ToolStripMenuItem.Name = "查看ToolStripMenuItem";
-            this.查看ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
-            this.查看ToolStripMenuItem.Text = "查看";
-            this.查看ToolStripMenuItem.Click += new System.EventHandler(this.查看ToolStripMenuItem_Click);
-            // 
-            // 修改ToolStripMenuItem
-            // 
-            this.修改ToolStripMenuItem.Name = "修改ToolStripMenuItem";
-            this.修改ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
-            this.修改ToolStripMenuItem.Text = "修改";
-            this.修改ToolStripMenuItem.Click += new System.EventHandler(this.修改ToolStripMenuItem_Click);
+            this.用户ToolStripMenuItem.Click += new System.EventHandler(this.用户ToolStripMenuItem_Click);
             // 
             // 历史记录ToolStripMenuItem1
             // 
@@ -209,8 +191,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 用户ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 查看ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 修改ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 历史记录ToolStripMenuItem1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem 设置ToolStripMenuItem;

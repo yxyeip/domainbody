@@ -22,18 +22,10 @@ namespace WindowsFormsApplication1
             this.id = id;
         }
 
-        private void 查看ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            userinfo_glance ug = new userinfo_glance(id);
-            
-            ug.Show();
-        }
-
+       
         private void 修改ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            userinfo_m um = new userinfo_m(id);
             
-            um.Show();
         }
 
         private void 历史记录ToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -84,45 +76,51 @@ namespace WindowsFormsApplication1
         {
 
         }
-       /* bool GoNotePad(char* path, bool bWait = true)
+
+        private void 用户ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            char pathexe[MAX_PATH];
-            strcpy(pathexe, "notepad.exe ");
-            strcat(pathexe, path);//pathname="notepad.exe ",
-            STARTUPINFO sinfo;
-            PROCESS_INFORMATION pinfo;
-            memset(&sinfo, 0, sizeof(STARTUPINFO));
-            sinfo.cb = sizeof(STARTUPINFO);
-            sinfo.dwFlags |= STARTF_USESHOWWINDOW;
-            sinfo.wShowWindow = SW_SHOWNORMAL;//SW_SHOW;// SW_SHOWDEFAULT;
-                                              //BOOL fsuccess=0;
-            BOOL fsuccess = CreateProcess(NULL,//lpApplicationName
-                          pathexe,            //lpCommanderLine
-                          NULL,                //lpProcessAttributes
-                          NULL,                //lpThreadAttributes
-                          FALSE,            //bInheritHandles
-                          NORMAL_PRIORITY_CLASS,//dwCreationFlags
-                          NULL,                //lpEnvironment
-                          NULL,                //lpCurrentDirectory
-                          &sinfo,            //lpStartupInfo
-                          &pinfo);            //lpProcessInformation
-                                              // wait for NotePad finishes
-            if (fsuccess)
+            userinfo_m um = new userinfo_m(id);
+            um.Show();
+        }
+        /* bool GoNotePad(char* path, bool bWait = true)
+{
+    char pathexe[MAX_PATH];
+    strcpy(pathexe, "notepad.exe ");
+    strcat(pathexe, path);//pathname="notepad.exe ",
+    STARTUPINFO sinfo;
+    PROCESS_INFORMATION pinfo;
+    memset(&sinfo, 0, sizeof(STARTUPINFO));
+    sinfo.cb = sizeof(STARTUPINFO);
+    sinfo.dwFlags |= STARTF_USESHOWWINDOW;
+    sinfo.wShowWindow = SW_SHOWNORMAL;//SW_SHOW;// SW_SHOWDEFAULT;
+                                      //BOOL fsuccess=0;
+    BOOL fsuccess = CreateProcess(NULL,//lpApplicationName
+                  pathexe,            //lpCommanderLine
+                  NULL,                //lpProcessAttributes
+                  NULL,                //lpThreadAttributes
+                  FALSE,            //bInheritHandles
+                  NORMAL_PRIORITY_CLASS,//dwCreationFlags
+                  NULL,                //lpEnvironment
+                  NULL,                //lpCurrentDirectory
+                  &sinfo,            //lpStartupInfo
+                  &pinfo);            //lpProcessInformation
+                                      // wait for NotePad finishes
+    if (fsuccess)
+    {
+        HANDLE hProcess = pinfo.hProcess;
+        CloseHandle(pinfo.hThread);// close thread at once
+        if (bWait)
+        {
+            if (WaitForSingleObject(hProcess, INFINITE) != WAIT_FAILED)
             {
-                HANDLE hProcess = pinfo.hProcess;
-                CloseHandle(pinfo.hThread);// close thread at once
-                if (bWait)
-                {
-                    if (WaitForSingleObject(hProcess, INFINITE) != WAIT_FAILED)
-                    {
-                        DWORD dwExitCode;
-                        GetExitCodeProcess(hProcess, &dwExitCode);
-                        if (dwExitCode == STILL_ACTIVE) AfxMessageBox(IDS_NOTEPAD_ALIVE);
-                    }
-                }
-                CloseHandle(pinfo.hProcess);
+                DWORD dwExitCode;
+                GetExitCodeProcess(hProcess, &dwExitCode);
+                if (dwExitCode == STILL_ACTIVE) AfxMessageBox(IDS_NOTEPAD_ALIVE);
             }
-            return (fsuccess);
-        }*/
+        }
+        CloseHandle(pinfo.hProcess);
+    }
+    return (fsuccess);
+}*/
     }
 }

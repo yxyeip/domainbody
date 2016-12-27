@@ -41,6 +41,7 @@ namespace WindowsFormsApplication1
         {
             this.MaximizeBox = false;
             this.MinimizeBox = false;
+            //数据库操作
             string strConnection = "Server=Lenovo-PC;";
             strConnection += "uid=bd;";
             strConnection += "pwd=123456;database=BodyDomain";
@@ -49,10 +50,11 @@ namespace WindowsFormsApplication1
             cnn.Open();
             DataSet ds = new DataSet();
             string user = "user" + id.ToString();
-            String sql = "Select Realname,Score,Time from userInfo join "+user+" on userInfo.ID = "+user+".ID where userInfo.ID='"+id.ToString()+"'";
+            String sql = "Select Time,Score from " + user;
             SqlDataAdapter sda = new SqlDataAdapter(sql, cnn);
             sda.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
+            cnn.Close();
         }
     }
 }
