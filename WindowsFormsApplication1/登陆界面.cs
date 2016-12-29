@@ -191,7 +191,23 @@ namespace WindowsFormsApplication1
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             u_p = textBox2.Text.Trim();
+           /* if (checkBox1.Checked)
+            {
+                //this.textBox2.PasswordChar = Convert.ToChar(0);
+                this.textBox2.PasswordChar = 'j';
+            } */        
         }
 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                this.textBox2.PasswordChar = '\0';
+            }
+            else
+            {              
+                this.textBox2.PasswordChar = '*';
+            }
+        }
     }
 }

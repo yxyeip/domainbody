@@ -71,7 +71,6 @@ namespace WindowsFormsApplication1
             ShowForm Sf = new ShowForm(this, "仅供内部使用" + System.Guid.NewGuid().ToString());
             IntPtr i = Sf.Start(Application.StartupPath + "\\test.exe");
         }
-
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -82,45 +81,34 @@ namespace WindowsFormsApplication1
             userinfo_m um = new userinfo_m(id);
             um.Show();
         }
-        /* bool GoNotePad(char* path, bool bWait = true)
-{
-    char pathexe[MAX_PATH];
-    strcpy(pathexe, "notepad.exe ");
-    strcat(pathexe, path);//pathname="notepad.exe ",
-    STARTUPINFO sinfo;
-    PROCESS_INFORMATION pinfo;
-    memset(&sinfo, 0, sizeof(STARTUPINFO));
-    sinfo.cb = sizeof(STARTUPINFO);
-    sinfo.dwFlags |= STARTF_USESHOWWINDOW;
-    sinfo.wShowWindow = SW_SHOWNORMAL;//SW_SHOW;// SW_SHOWDEFAULT;
-                                      //BOOL fsuccess=0;
-    BOOL fsuccess = CreateProcess(NULL,//lpApplicationName
-                  pathexe,            //lpCommanderLine
-                  NULL,                //lpProcessAttributes
-                  NULL,                //lpThreadAttributes
-                  FALSE,            //bInheritHandles
-                  NORMAL_PRIORITY_CLASS,//dwCreationFlags
-                  NULL,                //lpEnvironment
-                  NULL,                //lpCurrentDirectory
-                  &sinfo,            //lpStartupInfo
-                  &pinfo);            //lpProcessInformation
-                                      // wait for NotePad finishes
-    if (fsuccess)
-    {
-        HANDLE hProcess = pinfo.hProcess;
-        CloseHandle(pinfo.hThread);// close thread at once
-        if (bWait)
+
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (WaitForSingleObject(hProcess, INFINITE) != WAIT_FAILED)
+            stopNamedProcess("test");
+            Process.GetCurrentProcess().Kill();
+        }
+        //杀死指定名字的进程
+        public static void stopNamedProcess(string name)
+        {
+            Process[] process = Process.GetProcesses();
+            foreach (Process p in process)
             {
-                DWORD dwExitCode;
-                GetExitCodeProcess(hProcess, &dwExitCode);
-                if (dwExitCode == STILL_ACTIVE) AfxMessageBox(IDS_NOTEPAD_ALIVE);
+                Console.WriteLine(p.ProcessName);
+                if (p.ProcessName == name)
+                {
+                    try
+                    {
+                        p.Kill();
+                        p.WaitForExit();
+                    }
+                    catch (Exception exp)
+                    {
+                        Console.WriteLine(exp.Message);
+                        System.Diagnostics.EventLog.WriteEntry("AlchemySearch:KillProcess", exp.Message, System.Diagnostics.EventLogEntryType.Error);
+                    }
+                }
             }
         }
-        CloseHandle(pinfo.hProcess);
-    }
-    return (fsuccess);
-}*/
     }
 }

@@ -16,13 +16,9 @@ Platform assembly: C:\Users\lenovo\Desktop\domain\WindowsFormsApplication1\bin\D
 Loading C:\Users\lenovo\Desktop\domain\WindowsFormsApplication1\bin\Debug\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\lenovo\Desktop\domain\WindowsFormsApplication1\bin\Debug\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\lenovo\Desktop\domain\WindowsFormsApplication1\bin\Debug\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.076 seconds
+- Completed reload, in  0.057 seconds
 Platform assembly: C:\Users\lenovo\Desktop\domain\WindowsFormsApplication1\bin\Debug\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\lenovo\Desktop\domain\WindowsFormsApplication1\bin\Debug\test_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 50Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 0.917413 ms
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 24bc -> priority: 1 
