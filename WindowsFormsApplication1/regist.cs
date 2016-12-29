@@ -27,9 +27,95 @@ namespace WindowsFormsApplication1
                 || textBox6.Text.Trim() == null || (radioButton1.Text == null && radioButton2.Text == null))
             {
                 MessageBox.Show("用户信息不完整，请重新输入！");
+                return;
             }
-            else
+ //检查合法性
+            if (textBox1.Text.Trim().Length > 10)
             {
+                MessageBox.Show("用户名长度请不要超过10位");
+                return;
+            }
+            if (textBox2.Text.Trim().Length > 4)
+            {
+                MessageBox.Show("年龄过大");
+                return;
+            }
+            if (textBox2.Text.Trim().Length <= 4)
+            {
+                try
+                {
+                    int var1 = Convert.ToInt32(textBox2.Text.Trim());
+                }
+                catch
+                {
+                    MessageBox.Show("年龄应为数字");
+                    return;
+                }
+            }
+            if (textBox3.Text.Trim().Length > 4)
+            {
+                MessageBox.Show("身高过高");
+                return;
+            }
+            if (textBox3.Text.Trim().Length <= 4)
+            {
+                try
+                {
+                    int var1 = Convert.ToInt32(textBox2.Text.Trim());
+                }
+                catch
+                {
+                    MessageBox.Show("身高应为数字");
+                    return;
+                }
+            }
+            if (textBox4.Text.Trim().Length > 4)
+            {
+                MessageBox.Show("体重过大");
+                return;
+            }
+            if (textBox4.Text.Trim().Length <= 4)
+            {
+                try
+                {
+                    int var1 = Convert.ToInt32(textBox2.Text.Trim());
+                }
+                catch
+                {
+                    MessageBox.Show("体重应为数字");
+                    return;
+                }
+            }
+            if (textBox5.Text.Trim().Length != 0)
+            {
+                try
+                {
+                    int var1 = Convert.ToInt32(textBox2.Text.Trim());
+                }
+                catch
+                {
+                    MessageBox.Show("电话号码应为数字");
+                    return;
+                }
+            }
+            if (textBox6.Text.Trim().Length != 0)
+            {
+                string temp = textBox6.Text.Trim();
+                bool find = false;
+                for (int i = 0; i < (textBox6.Text.Trim().Length); i++)
+                {
+                    if (temp[i] == '@')
+                    {
+                        find = true;
+                    }
+                }
+                if (find == false)
+                {
+                    MessageBox.Show("邮箱格式错误");
+                    return;
+                }
+            }
+            
                 //检查合法性
                 //更新数据库userInfo表
                 string sql1 = "select max(ID) from userInfo";
@@ -70,7 +156,6 @@ namespace WindowsFormsApplication1
                     this.Hide();
                     f2.Show();
                 }            
-            }
 
         }
 

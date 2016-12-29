@@ -51,5 +51,20 @@ namespace WindowsFormsApplication1
             return objResult;
         }
 
+        //返回数据集
+        static public DataSet sql_Dateset(string sql)
+        {
+            string strConnection = "Server=Lenovo-PC;";
+            strConnection += "uid=bd;";
+            strConnection += "pwd=123456;database=BodyDomain";
+            SqlConnection cnn = new SqlConnection();
+            cnn.ConnectionString = strConnection;
+            cnn.Open();
+            DataSet ds = new DataSet();
+            SqlDataAdapter sda = new SqlDataAdapter(sql, cnn);
+            sda.Fill(ds);
+            return ds;
+        }
+
     }
 }
