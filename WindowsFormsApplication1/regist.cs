@@ -52,13 +52,24 @@ namespace WindowsFormsApplication1
                 {
                     MessageBox.Show("输入用户信息失败，请重试！");
                 }
-                else
+                //创建历史纪录表userXX如user11
+                string user = "user" + id.ToString();
+                try
                 {
-                    //跳转窗体
+                    sql = "CREATE TABLE " + user + "(ID int NOT NULL,Time datetime NOT NULL, Score int NOT NULL, Vidio CHAR(50) NOT NULL,primary key (ID))";
+                    result = Database.sql_ExecuteNonQuery(sql);
+                }
+                catch (SqlException ae)
+                {
+                    MessageBox.Show(ae.Message.ToString());
+                }
+                //跳转窗体
+                if (result != null)
+                {
                     Form2 f2 = new Form2(id);
                     this.Hide();
                     f2.Show();
-                }
+                }            
             }
 
         }

@@ -59,5 +59,13 @@ namespace WindowsFormsApplication1
             this.MaximizeBox = false;
             this.MinimizeBox = false;
         }
+
+        private void buttonOK_Click(object sender, EventArgs e)
+        {
+            //时间：日期+时间 2016/12/23 11：14   
+            string startTime = null;
+            startTime += dateTimePicker1.Value.Year.ToString() + "/"+dateTimePicker1.Value.Month.ToString()+"/";
+
+        }
     }
 }
